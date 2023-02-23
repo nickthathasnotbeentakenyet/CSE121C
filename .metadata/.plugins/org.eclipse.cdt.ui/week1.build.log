@@ -1,0 +1,7 @@
+12:52:47 **** Rebuild of configuration Debug for project week1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week1.o" "..\\src\\week1.c" 
+gcc -o week1.exe "src\\week1.o" 
+
+12:52:47 Build Finished. 0 errors, 0 warnings. (took 546ms)
+

@@ -1,0 +1,541 @@
+13:59:28 **** Rebuild of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+14:10:19 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:35:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char list = "Item1\nItem2\nItem3\nItem4\nItem5\n";
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\week2.c:36:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(list);
+         ^~~~
+In file included from ..\src\week2.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o week2.exe "src\\week2.o" 
+14:11:57 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:35:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char list = "Item1\nItem2\nItem3\nItem4\nItem5\n";
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o week2.exe "src\\week2.o" 
+14:12:51 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:36:11: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf("%c",list);
+           ^
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+14:14:01 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+14:23:50 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+14:31:10 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+14:43:46 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+14:55:44 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:37:30: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                              ^~~~~~
+..\src\week2.c:37:30: note: (near initialization for 'products')
+..\src\week2.c:37:38: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                      ^~~~~~~~~
+..\src\week2.c:37:38: note: (near initialization for 'products')
+..\src\week2.c:37:49: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                 ^~~~~~~~~
+..\src\week2.c:37:49: note: (near initialization for 'products')
+..\src\week2.c:37:60: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                            ^~~~~~
+..\src\week2.c:37:60: note: (near initialization for 'products')
+..\src\week2.c:45:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[0], prices[0]);
+            ^
+..\src\week2.c:45:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[0], prices[0]);
+                     ^
+..\src\week2.c:48:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+            ^
+..\src\week2.c:48:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+                     ^
+..\src\week2.c:51:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+            ^
+..\src\week2.c:51:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+                    ^
+..\src\week2.c:54:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+            ^
+..\src\week2.c:54:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+                    ^
+..\src\week2.c:57:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+            ^
+..\src\week2.c:57:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+                     ^
+14:56:33 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:37:30: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                              ^~~~~~
+..\src\week2.c:37:30: note: (near initialization for 'products')
+..\src\week2.c:37:38: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                      ^~~~~~~~~
+..\src\week2.c:37:38: note: (near initialization for 'products')
+..\src\week2.c:37:49: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                 ^~~~~~~~~
+..\src\week2.c:37:49: note: (near initialization for 'products')
+..\src\week2.c:37:60: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                            ^~~~~~
+..\src\week2.c:37:60: note: (near initialization for 'products')
+..\src\week2.c:45:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %d", products[0], prices[0]);
+            ^
+..\src\week2.c:48:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+            ^
+..\src\week2.c:48:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+                     ^
+..\src\week2.c:51:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+            ^
+..\src\week2.c:51:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+                    ^
+..\src\week2.c:54:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+            ^
+..\src\week2.c:54:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+                    ^
+..\src\week2.c:57:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+            ^
+..\src\week2.c:57:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+                     ^
+14:57:19 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:37:30: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                              ^~~~~~
+..\src\week2.c:37:30: note: (near initialization for 'products')
+..\src\week2.c:37:38: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                      ^~~~~~~~~
+..\src\week2.c:37:38: note: (near initialization for 'products')
+..\src\week2.c:37:49: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                 ^~~~~~~~~
+..\src\week2.c:37:49: note: (near initialization for 'products')
+..\src\week2.c:37:60: error: excess elements in char array initializer
+  char products[] = {"Bread", "Milk", "Potatos", "Tomatos", "Beef"};
+                                                            ^~~~~~
+..\src\week2.c:37:60: note: (near initialization for 'products')
+..\src\week2.c:45:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %d", (char)products[0], prices[0]);
+            ^
+..\src\week2.c:48:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+            ^
+..\src\week2.c:48:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+                     ^
+..\src\week2.c:51:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+            ^
+..\src\week2.c:51:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+                    ^
+..\src\week2.c:54:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+            ^
+..\src\week2.c:54:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+                    ^
+..\src\week2.c:57:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+            ^
+..\src\week2.c:57:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+                     ^
+15:00:50 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:45:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[0], prices[0]);
+                     ^
+..\src\week2.c:48:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[1], prices[1]);
+                     ^
+..\src\week2.c:51:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[2], prices[2]);
+                    ^
+..\src\week2.c:54:20: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s cost %f", products[3], prices[3]);
+                    ^
+..\src\week2.c:57:21: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+   printf("%s costs %f", products[4], prices[4]);
+                     ^
+gcc -o week2.exe "src\\week2.o" 
+15:03:39 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+15:10:45 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+15:12:54 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+15:13:47 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+15:31:28 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+15:37:04 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+15:51:07 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:77:16: error: 'weekdays' undeclared (first use in this function)
+   printf("%s", weekdays[i]);
+                ^~~~~~~~
+..\src\week2.c:77:16: note: each undeclared identifier is reported only once for each function it appears in
+15:56:35 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:66:30: error: excess elements in char array initializer
+ char weekdays[] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                              ^~~~~~~~
+..\src\week2.c:66:30: note: (near initialization for 'weekdays')
+..\src\week2.c:66:50: error: excess elements in char array initializer
+ char weekdays[] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                                  ^~~~~~~~~~~
+..\src\week2.c:66:50: note: (near initialization for 'weekdays')
+..\src\week2.c:66:63: error: excess elements in char array initializer
+ char weekdays[] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                                               ^~~~~~~~~~
+..\src\week2.c:66:63: note: (near initialization for 'weekdays')
+..\src\week2.c:66:75: error: excess elements in char array initializer
+ char weekdays[] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                                                           ^~~~~~~~
+..\src\week2.c:66:75: note: (near initialization for 'weekdays')
+..\src\week2.c:66:85: error: excess elements in char array initializer
+ char weekdays[] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                                                                     ^~~~~~~~~~
+..\src\week2.c:66:85: note: (near initialization for 'weekdays')
+..\src\week2.c:70:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", weekdays[i]);
+            ^
+15:58:35 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:66:35: warning: initializer-string for array of chars is too long
+ char weekdays[7][10] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                   ^~~~~~~~
+..\src\week2.c:66:35: note: (near initialization for 'weekdays[1]')
+gcc -o week2.exe "src\\week2.o" 
+16:00:10 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:66:35: warning: initializer-string for array of chars is too long
+ char weekdays[7][10] = {"Sunday", "Monday" "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+                                   ^~~~~~~~
+..\src\week2.c:66:35: note: (near initialization for 'weekdays[1]')
+gcc -o week2.exe "src\\week2.o" 
+16:00:57 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+16:02:50 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+16:05:02 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+16:24:32 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:70:6: warning: unused variable 'age' [-Wunused-variable]
+  int age = 0;
+      ^~~
+gcc -o week2.exe "src\\week2.o" 
+16:25:16 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:70:6: warning: unused variable 'age' [-Wunused-variable]
+  int age = 0;
+      ^~~
+gcc -o week2.exe "src\\week2.o" 
+16:35:44 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+16:37:07 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+16:44:04 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+16:52:55 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+16:58:30 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+17:03:26 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+17:06:55 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+17:11:55 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:12:13 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+21:15:00 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:15:15 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+21:19:30 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:28:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    num1,num2=0,0;
+        ^
+..\src\week2.c:28:15: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+    num1,num2=0,0;
+               ^
+gcc -o week2.exe "src\\week2.o" 
+21:21:04 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:22:40 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:25:41 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file week2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:25:43 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -o week2.exe "src\\week2.o" 
+21:28:03 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:32:10 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+21:33:20 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:35:03 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+21:38:09 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:39:20 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+21:39:49 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+00:48:24 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:13: warning: unused variable 'y' [-Wunused-variable]
+   typeof(i) y;
+             ^
+gcc -o week2.exe "src\\week2.o" 
+00:49:29 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:13: warning: unused variable 'y' [-Wunused-variable]
+   typeof(i) y;
+             ^
+gcc -o week2.exe "src\\week2.o" 
+00:49:57 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:3: warning: useless type name in empty declaration
+   typeof(i);
+   ^~~~~~
+gcc -o week2.exe "src\\week2.o" 
+00:50:27 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:13: warning: unused variable 'y' [-Wunused-variable]
+   typeof(i) y;
+             ^
+gcc -o week2.exe "src\\week2.o" 
+00:51:04 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:10: error: expected expression before 'typeof'
+   printf(typeof(i) y);
+          ^~~~~~
+00:52:22 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("d", sizeof(i));
+          ^~~
+gcc -o week2.exe "src\\week2.o" 
+00:53:11 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:24:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("d", sizeof(i));
+          ^~~
+gcc -o week2.exe "src\\week2.o" 
+00:53:47 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+00:54:31 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+00:55:51 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+00:56:46 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+01:00:39 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file week2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:37:48 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+..\src\week2.c: In function 'main':
+..\src\week2.c:17:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, x;
+      ^
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+Info: Nothing to build for week2
+22:41:06 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+Info: Nothing to build for week2
+22:44:08 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
+22:47:39 **** Incremental Build of configuration Debug for project week2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week2.o" "..\\src\\week2.c" 
+gcc -o week2.exe "src\\week2.o" 
