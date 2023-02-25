@@ -1,10 +1,11 @@
 LaunchTargetManager/configs/learning_debugging.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/week1.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/week2.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/week3\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:learning_debugging.exe,org.eclipse.launchbar.core.descriptorType.default\:week1.exe,org.eclipse.launchbar.core.descriptorType.default\:week2.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:learning_debugging.exe,org.eclipse.launchbar.core.descriptorType.default\:week1.exe,org.eclipse.launchbar.core.descriptorType.default\:week2.exe,org.eclipse.launchbar.core.descriptorType.default\:week3 Debug
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:learning_debugging.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:learning_debugging.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

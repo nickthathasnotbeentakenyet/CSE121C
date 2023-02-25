@@ -1,3 +1,4 @@
+CLOSE_UNRELATED_PROJECTS=true
 SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
 eclipse.preferences.version=1
 platformState=1676718414137
