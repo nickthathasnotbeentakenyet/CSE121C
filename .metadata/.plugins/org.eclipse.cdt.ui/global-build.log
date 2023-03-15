@@ -3844,3 +3844,1779 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\week5.o" "..\\src\\week5.c"
 gcc -o week5.exe "src\\week5.o" 
 Info: Nothing to build for week5
 Info: Nothing to build for week5
+15:36:21 **** Rebuild of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+15:37:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+15:40:14 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+15:48:53 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+15:49:12 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+15:49:40 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+15:49:54 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+15:50:34 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'print_menu':
+..\src\final.c:16:9: warning: unknown escape sequence: '\s'
+  printf("\sMENU:\n");
+         ^~~~~~~~~~~
+..\src\final.c:17:9: warning: unknown escape sequence: '\s'
+  printf("\s\sNew\n");
+         ^~~~~~~~~~~
+..\src\final.c:17:9: warning: unknown escape sequence: '\s'
+gcc -o final.exe "src\\final.o" 
+15:51:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+15:52:28 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:05:14 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:44:3: warning: implicit declaration of function 'clrsrc' [-Wimplicit-function-declaration]
+   clrsrc();
+   ^~~~~~
+gcc -o final.exe "src\\final.o" 
+src\final.o: In function `main':
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:44: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:53: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:57: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:61: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:65: undefined reference to `clrsrc'
+src\final.o:C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:69: more undefined references to `clrsrc' follow
+collect2.exe: error: ld returned 1 exit status
+16:05:16 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -o final.exe "src\\final.o" 
+src\final.o: In function `main':
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:44: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:53: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:57: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:61: undefined reference to `clrsrc'
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:65: undefined reference to `clrsrc'
+src\final.o:C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:69: more undefined references to `clrsrc' follow
+collect2.exe: error: ld returned 1 exit status
+16:06:32 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:08:15 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:09:43 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:11:34 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:22:06 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+Info: Nothing to build for final
+Info: Nothing to build for final
+Info: Nothing to build for final
+Info: Nothing to build for final
+Info: Nothing to build for final
+16:23:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file final.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:23:53 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:25:37 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:29:48 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+16:40:32 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+17:04:42 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+17:44:10 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'add_employee':
+..\src\final.c:78:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   curr = curr->next;
+        ^
+..\src\final.c:80:13: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  curr->next = new_emp;
+             ^
+..\src\final.c: In function 'main':
+..\src\final.c:100:5: error: too few arguments to function 'add_employee'
+     add_employee();
+     ^~~~~~~~~~~~
+..\src\final.c:45:6: note: declared here
+ void add_employee(Employee** root){
+      ^~~~~~~~~~~~
+17:45:20 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'add_employee':
+..\src\final.c:78:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   curr = curr->next;
+        ^
+..\src\final.c:80:13: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  curr->next = new_emp;
+             ^
+gcc -o final.exe "src\\final.o" 
+17:45:48 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+17:48:12 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+17:55:47 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+17:57:02 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file final.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:57:04 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -o final.exe "src\\final.o" 
+18:01:23 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+18:08:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:10:54 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:111:15: warning: unknown conversion type character ':' in format [-Wformat=]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+               ^
+..\src\final.c:111:22: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                      ^
+..\src\final.c:111:80: warning: format '%d' expects argument of type 'int', but argument 5 has type 'char *' [-Wformat=]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                ^
+..\src\final.c:111:93: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'int' [-Wformat=]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                             ^
+..\src\final.c:111:111: warning: format '%f' expects argument of type 'double', but argument 7 has type 'char *' [-Wformat=]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                                               ^
+..\src\final.c:111:13: warning: too many arguments for format [-Wformat-extra-args]
+      printf("%:<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+18:11:02 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:111:15: warning: unknown conversion type character '<' in format [-Wformat=]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+               ^
+..\src\final.c:111:21: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                     ^
+..\src\final.c:111:79: warning: format '%d' expects argument of type 'int', but argument 5 has type 'char *' [-Wformat=]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                               ^
+..\src\final.c:111:92: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'int' [-Wformat=]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                            ^
+..\src\final.c:111:110: warning: format '%f' expects argument of type 'double', but argument 7 has type 'char *' [-Wformat=]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                                              ^
+..\src\final.c:111:13: warning: too many arguments for format [-Wformat-extra-args]
+      printf("%<7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:11:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:111:15: warning: unknown conversion type character '<' in format [-Wformat=]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+               ^
+..\src\final.c:111:22: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                      ^
+..\src\final.c:111:80: warning: format '%d' expects argument of type 'int', but argument 5 has type 'char *' [-Wformat=]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                ^
+..\src\final.c:111:93: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'int' [-Wformat=]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                             ^
+..\src\final.c:111:111: warning: format '%f' expects argument of type 'double', but argument 7 has type 'char *' [-Wformat=]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+                                                                                                               ^
+..\src\final.c:111:13: warning: too many arguments for format [-Wformat-extra-args]
+      printf("%<:7d| %s                 | %s              | %s               | %d         | %s          |  $%.2f |\n",
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+18:12:22 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+18:14:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+18:17:17 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:19:25 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file final.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:19:27 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -o final.exe "src\\final.o" 
+18:21:13 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:24:06 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:111:5: error: expected ';' before 'for'
+     for(Employee* curr = root; curr != NULL; curr = curr->next){
+     ^~~
+18:24:15 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file final.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:25:35 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file final.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:25:37 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -o final.exe "src\\final.o" 
+18:36:14 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:39:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+18:42:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:45:47 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:47:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+18:58:31 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:134:15: warning: format '%[^
+   ' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+     scanf("%[^\n]", &dep);
+               ^
+..\src\final.c:139:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+      if(strcmp(curr->department, dep)==0){
+         ^~~~~~
+gcc -o final.exe "src\\final.o" 
+18:59:28 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:139:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+      if(strcmp(curr->department, dep)==0){
+         ^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:01:47 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:139:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+      if(strcmp(curr->department, dep)){
+         ^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:01:52 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:139:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+      if(strcmp(curr->department, dep)==0){
+         ^~~~~~
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+19:04:26 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:139:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+      if(strcmp(curr->department, dep)==0){
+         ^~~~~~
+gcc -o final.exe "src\\final.o" 
+21:02:04 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+21:20:03 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+21:23:28 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:223:40: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'int' [-Wformat=]
+      printf("| %-6d| %-21s| %-18s| %-19s| %-11d| %-12s| $%-8.2f |\n",
+                                        ^
+..\src\final.c:223:47: warning: format '%d' expects argument of type 'int', but argument 6 has type 'char *' [-Wformat=]
+      printf("| %-6d| %-21s| %-18s| %-19s| %-11d| %-12s| $%-8.2f |\n",
+                                               ^
+..\src\final.c:223:54: warning: format '%s' expects argument of type 'char *', but argument 7 has type 'double' [-Wformat=]
+      printf("| %-6d| %-21s| %-18s| %-19s| %-11d| %-12s| $%-8.2f |\n",
+                                                      ^
+..\src\final.c:223:63: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+      printf("| %-6d| %-21s| %-18s| %-19s| %-11d| %-12s| $%-8.2f |\n",
+                                                               ^
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+21:24:05 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+18:41:57 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'bubbleSort':
+..\src\final.c:159:14: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         ptr1 = start;
+              ^
+..\src\final.c:161:20: error: dereferencing pointer to incomplete type 'struct Node'
+         while (ptr1->next != lptr)
+                    ^~
+..\src\final.c:165:17: warning: implicit declaration of function 'swap' [-Wimplicit-function-declaration]
+                 swap(ptr1, ptr1->next);
+                 ^~~~
+..\src\final.c:148:18: warning: unused variable 'i' [-Wunused-variable]
+     int swapped, i;
+                  ^
+18:43:33 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'bubbleSort':
+..\src\final.c:165:17: warning: implicit declaration of function 'swap' [-Wimplicit-function-declaration]
+                 swap(ptr1, ptr1->next);
+                 ^~~~
+..\src\final.c:148:18: warning: unused variable 'i' [-Wunused-variable]
+     int swapped, i;
+                  ^
+gcc -o final.exe "src\\final.o" 
+src\final.o: In function `bubbleSort':
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:165: undefined reference to `swap'
+collect2.exe: error: ld returned 1 exit status
+18:44:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'bubbleSort':
+..\src\final.c:153:18: warning: unused variable 'i' [-Wunused-variable]
+     int swapped, i;
+                  ^
+gcc -o final.exe "src\\final.o" 
+18:45:14 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+18:46:09 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+18:46:52 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:295:5: warning: implicit declaration of function 'bubble_sort' [-Wimplicit-function-declaration]
+     bubble_sort(&root)
+     ^~~~~~~~~~~
+..\src\final.c:296:5: error: expected ';' before 'system'
+     system("pause");
+     ^~~~~~
+18:46:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:295:5: warning: implicit declaration of function 'bubble_sort' [-Wimplicit-function-declaration]
+     bubble_sort(&root);
+     ^~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+src\final.o: In function `main':
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:295: undefined reference to `bubble_sort'
+collect2.exe: error: ld returned 1 exit status
+18:47:20 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:295:17: warning: passing argument 1 of 'bubble_sort' from incompatible pointer type [-Wincompatible-pointer-types]
+     bubble_sort(&root);
+                 ^
+..\src\final.c:151:6: note: expected 'struct Employee *' but argument is of type 'Employee ** {aka struct Employee **}'
+ void bubble_sort(struct Employee *root)
+      ^~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+18:49:56 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'bubble_sort':
+..\src\final.c:164:14: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         ptr1 = root;
+              ^
+gcc -o final.exe "src\\final.o" 
+18:50:15 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+19:02:08 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:22: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_name = a->fullname;
+                      ^
+..\src\final.c:148:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_dep = a->department;
+                     ^
+..\src\final.c:149:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_pos = a->position;
+                     ^
+..\src\final.c:151:23: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_month = a->m_hired;
+                       ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                                         ^
+19:02:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                                         ^
+19:03:01 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name;
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                                         ^
+19:03:19 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep;
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                                         ^
+19:03:43 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos;
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month;
+                                         ^
+19:03:54 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:03:56 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:04:45 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname[50];
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                 ^
+..\src\final.c:155:44: error: assignment to expression with array type
+     a->fullname = b->fullname; b->fullname = temp_name[50];
+                                            ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:05:04 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname[50];
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                   ^
+..\src\final.c:156:50: error: assignment to expression with array type
+     a->department = b->department; b->department = temp_dep[50];
+                                                  ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:05:31 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname[50];
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:05:39 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:155:67: error: subscripted value is neither array nor pointer nor vector
+     a->fullname[50] = b->fullname[50]; b->fullname[50] = temp_name[50];
+                                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+..\src\final.c:147:10: warning: variable 'temp_name' set but not used [-Wunused-but-set-variable]
+     char temp_name = a->fullname[50];
+          ^~~~~~~~~
+19:05:48 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department;
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position;
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired;
+                           ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                 ^
+..\src\final.c:157:44: error: assignment to expression with array type
+     a->position = b->position; b->position = temp_pos[30];
+                                            ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                ^
+..\src\final.c:159:41: error: assignment to expression with array type
+     a->m_hired = b->m_hired; b->m_hired = temp_month[10];
+                                         ^
+19:06:42 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:148:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_dep = a->department;
+                     ^
+..\src\final.c:149:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_pos = a->position;
+                     ^
+..\src\final.c:151:23: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_month = a->m_hired;
+                       ^
+gcc -o final.exe "src\\final.o" 
+19:07:08 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:08:56 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:10:36 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+19:14:18 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname[50];
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department[50];
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position[30];
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired[10];
+                           ^
+19:14:42 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:26: error: invalid initializer
+     char temp_name[50] = a->fullname;
+                          ^
+..\src\final.c:148:25: error: invalid initializer
+     char temp_dep[50] = a->department[50];
+                         ^
+..\src\final.c:149:25: error: invalid initializer
+     char temp_pos[30] = a->position[30];
+                         ^
+..\src\final.c:151:27: error: invalid initializer
+     char temp_month[10] = a->m_hired[10];
+                           ^
+19:15:16 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:16:16 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'bubble_sort':
+..\src\final.c:184:17: error: too few arguments to function 'swap'
+                 swap(ptr1, ptr1->next);
+                 ^~~~
+..\src\final.c:144:6: note: declared here
+ void swap(struct Employee *a, struct Employee *b, struct Employee *temp)
+      ^~~~
+19:16:49 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: 'temp' is used uninitialized in this function [-Wuninitialized]
+  b = temp;
+  ~~^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:17:18 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:161:3: error: 'temp' undeclared (first use in this function)
+   temp = struct Employee *temp;
+   ^~~~
+..\src\final.c:161:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\final.c:161:10: error: expected expression before 'struct'
+   temp = struct Employee *temp;
+          ^~~~~~
+19:17:26 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: 'temp' is used uninitialized in this function [-Wuninitialized]
+  b = temp;
+  ~~^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:17:42 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  b = &temp;
+    ^
+gcc -o final.exe "src\\final.o" 
+19:17:51 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: error: incompatible types when assigning to type 'struct Employee *' from type 'struct Employee'
+  b = *temp;
+    ^
+19:19:25 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  b = temp;
+    ^
+..\src\final.c:163:4: warning: 'temp' is used uninitialized in this function [-Wuninitialized]
+  b = temp;
+  ~~^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:19:34 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: 'temp' is used uninitialized in this function [-Wuninitialized]
+  b = temp;
+  ~~^~~~~~
+gcc -o final.exe "src\\final.o" 
+19:20:03 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+19:22:09 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+19:24:05 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:24:52 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:27:12 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+19:30:27 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:32:44 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'main':
+..\src\final.c:306:5: warning: implicit declaration of function 'sort_employee' [-Wimplicit-function-declaration]
+     sort_employee(&root);
+     ^~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+src\final.o: In function `main':
+C:\Users\warning\eclipse-workspace\final\Debug/../src/final.c:306: undefined reference to `sort_employee'
+collect2.exe: error: ld returned 1 exit status
+19:33:01 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+19:47:07 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:22: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_name = a->fullname;
+                      ^
+gcc -o final.exe "src\\final.o" 
+19:48:12 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:22: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_name = a->fullname;
+                      ^
+..\src\final.c:148:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_dep = a->department;
+                     ^
+..\src\final.c:149:21: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_pos = a->position;
+                     ^
+..\src\final.c:151:23: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+     char temp_month = a->m_hired;
+                       ^
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:50:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:51:08 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:52:06 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:146:26: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     int temp_id = strcpy(a->id);
+                          ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:146:19: error: too few arguments to function 'strcpy'
+     int temp_id = strcpy(a->id);
+                   ^~~~~~
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:56:21 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = *temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:56:35 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:56:50 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:28: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     char temp_name; strcpy(temp_name, a->fullname);
+                            ^~~~~~~~~
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:56:59 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:57:05 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = &temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = &temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:58:22 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+19:58:24 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:155:17: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                 ^
+..\src\final.c:155:49: error: assignment to expression with array type
+     a->fullname = b->fullname;      b->fullname = temp_name;
+                                                 ^
+..\src\final.c:156:19: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                   ^
+..\src\final.c:156:51: error: assignment to expression with array type
+     a->department = b->department;  b->department = temp_dep;
+                                                   ^
+..\src\final.c:157:17: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                 ^
+..\src\final.c:157:49: error: assignment to expression with array type
+     a->position = b->position;      b->position = temp_pos;
+                                                 ^
+..\src\final.c:159:16: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                ^
+..\src\final.c:159:48: error: assignment to expression with array type
+     a->m_hired = b->m_hired;        b->m_hired = temp_month;
+                                                ^
+20:03:31 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:22: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name; strcpy(temp_name, a->fullname);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:148:21: warning: 'temp_dep' is used uninitialized in this function [-Wuninitialized]
+     char* temp_dep; strcpy(temp_dep, a->department);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:149:21: warning: 'temp_pos' is used uninitialized in this function [-Wuninitialized]
+     char* temp_pos; strcpy(temp_pos, a->position);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:151:23: warning: 'temp_month' is used uninitialized in this function [-Wuninitialized]
+     char* temp_month; strcpy(temp_month, a->m_hired);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:03:59 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:157:61: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(a->fullname, b->fullname);   strcpy(b->fullname, *temp_dep);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:158:65: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(a->department, b->department); strcpy(b->department, *temp_dep);
+                                                                 ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:147:22: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name; strcpy(temp_name, a->fullname);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:148:21: warning: 'temp_dep' is used uninitialized in this function [-Wuninitialized]
+     char* temp_dep; strcpy(temp_dep, a->department);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:149:21: warning: 'temp_pos' is used uninitialized in this function [-Wuninitialized]
+     char* temp_pos; strcpy(temp_pos, a->position);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:151:23: warning: 'temp_month' is used uninitialized in this function [-Wuninitialized]
+     char* temp_month; strcpy(temp_month, a->m_hired);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:04:05 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:157:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->fullname, b->fullname);   strcpy(b->fullname, &temp_dep);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:158:65: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(a->department, b->department); strcpy(b->department, *temp_dep);
+                                                                 ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:147:22: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name; strcpy(temp_name, a->fullname);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:149:21: warning: 'temp_pos' is used uninitialized in this function [-Wuninitialized]
+     char* temp_pos; strcpy(temp_pos, a->position);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:151:23: warning: 'temp_month' is used uninitialized in this function [-Wuninitialized]
+     char* temp_month; strcpy(temp_month, a->m_hired);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:04:29 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:157:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->fullname, b->fullname);   strcpy(b->fullname, &temp_dep);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:158:65: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->department, b->department); strcpy(b->department, &temp_dep);
+                                                                 ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:159:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->position, b->position);   strcpy(b->position, &temp_pos);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:160:60: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->m_hired, b->m_hired);     strcpy(b->m_hired, &temp_month);
+                                                            ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:147:22: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name; strcpy(temp_name, a->fullname);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:05:02 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:157:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->fullname, b->fullname);   strcpy(b->fullname, &temp_name);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:158:65: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->department, b->department); strcpy(b->department, &temp_dep);
+                                                                 ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:159:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->position, b->position);   strcpy(b->position, &temp_pos);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:160:60: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->m_hired, b->m_hired);     strcpy(b->m_hired, &temp_month);
+                                                            ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:147:22: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name; strcpy(temp_name, a->fullname);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+20:06:30 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:157:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->fullname, b->fullname);   strcpy(b->fullname, &temp_name);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:158:65: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->department, b->department); strcpy(b->department, &temp_dep);
+                                                                 ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:159:61: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->position, b->position);   strcpy(b->position, &temp_pos);
+                                                             ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\src\final.c:160:60: warning: passing argument 2 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     strcpy(a->m_hired, b->m_hired);     strcpy(b->m_hired, &temp_month);
+                                                            ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+gcc -o final.exe "src\\final.o" 
+20:06:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:148:21: warning: 'temp_dep' is used uninitialized in this function [-Wuninitialized]
+     char* temp_dep; strcpy(temp_dep, a->department);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:149:21: warning: 'temp_pos' is used uninitialized in this function [-Wuninitialized]
+     char* temp_pos; strcpy(temp_pos, a->position);
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\final.c:151:23: warning: 'temp_month' is used uninitialized in this function [-Wuninitialized]
+     char* temp_month; strcpy(temp_month, a->m_hired);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:07:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+20:15:28 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+20:23:45 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:32: warning: passing argument 1 of 'strcpy' from incompatible pointer type [-Wincompatible-pointer-types]
+     char* temp_name=""; strcpy(&temp_name, a->fullname);
+                                ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char **'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+gcc -o final.exe "src\\final.o" 
+20:24:03 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:32: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     char* temp_name=""; strcpy(*temp_name, a->fullname);
+                                ^
+In file included from ..\src\final.c:13:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+gcc -o final.exe "src\\final.o" 
+20:24:07 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+20:26:38 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:147:11: warning: 'temp_name' is used uninitialized in this function [-Wuninitialized]
+     char* temp_name= strcpy(temp_name, a->fullname);
+           ^~~~~~~~~
+gcc -o final.exe "src\\final.o" 
+20:27:33 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+20:29:58 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+..\src\final.c: In function 'swap':
+..\src\final.c:163:4: warning: 'temp' is used uninitialized in this function [-Wuninitialized]
+  b = temp;
+  ~~^~~~~~
+gcc -o final.exe "src\\final.o" 
+20:30:11 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+20:34:32 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+20:37:04 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+Info: Nothing to build for final
+Info: Nothing to build for final
+20:44:08 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+20:46:46 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+20:46:55 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+20:50:21 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
+13:45:47 **** Incremental Build of configuration Debug for project final ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\final.o" "..\\src\\final.c" 
+gcc -o final.exe "src\\final.o" 
